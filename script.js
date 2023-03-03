@@ -57,7 +57,7 @@ function settingsChange() {
     if (port != "") {
       host = host + ":" + port;
     }
-    window.location.href = "https://" + host + "/msgweb/settings/";
+    window.location.href = "https://" + host + "/settings/";
 }
 
 function homeChange() {
@@ -66,7 +66,7 @@ function homeChange() {
   if (port != "") {
     host = host + ":" + port;
   }
-  window.location.href = "https://" + host + "/msgweb/";
+  window.location.href = "https://" + host + "/";
 }
 
 function musicChange() {
@@ -75,7 +75,7 @@ function musicChange() {
   if (port != "") {
     host = host + ":" + port;
   }
-  window.location.href = "https://" + host + "/msgweb/library/";
+  window.location.href = "https://" + host + "/library/";
 
 }
 
@@ -85,7 +85,7 @@ function gameChange() {
     if (port != "") {
       host = host + ":" + port;
     }
-    window.location.href = "https://" + host + "/msgweb/games/";
+    window.location.href = "https://" + host + "/games/";
 }
 
 
